@@ -1,2 +1,1 @@
-### страница с обзором проектов
-[ ](https://kozubv.github.io/)
+[страница с обзором проектов](https://kozubv.github.io/)
