@@ -1,0 +1,7 @@
+<map id="State_TanksMenu" name="State_TanksMenu">
+<area shape="rect" id="node2" href="$class_base_state.html" title="общий интерфейс режимов программы. компонент &quot;базовый интерфейс состояний&quot; паттерна &quot;Состояние&quot;..." alt="" coords="27,363,110,389"/>
+<area shape="rect" id="node3" href="$class_state_manager.html" title="Предоставляем методы контроля, регистрации и смены режимов программы " alt="" coords="17,273,120,300"/>
+<area shape="rect" id="node4" href="$class_shared_context.html" title="доступ к общим данным режимов программы " alt="" coords="15,184,123,211"/>
+<area shape="rect" id="node5" href="$class_event_manager.html" title="отслеживает возникновения событий пользователького ввода " alt="" coords="46,5,150,32"/>
+<area shape="rect" id="node6" href="$class_window.html" title="Абстракция графического окна ОС. " alt="" coords="175,95,243,121"/>
+</map>

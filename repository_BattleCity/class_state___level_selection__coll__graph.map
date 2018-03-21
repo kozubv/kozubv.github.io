@@ -1,0 +1,11 @@
+<map id="State_LevelSelection" name="State_LevelSelection">
+<area shape="rect" id="node2" href="$class_base_state.html" title="общий интерфейс режимов программы. компонент &quot;базовый интерфейс состояний&quot; паттерна &quot;Состояние&quot;..." alt="" coords="117,363,200,389"/>
+<area shape="rect" id="node3" href="$class_state_manager.html" title="Предоставляем методы контроля, регистрации и смены режимов программы " alt="" coords="102,273,205,300"/>
+<area shape="rect" id="node4" href="$class_shared_context.html" title="доступ к общим данным режимов программы " alt="" coords="99,184,207,211"/>
+<area shape="rect" id="node5" href="$class_event_manager.html" title="отслеживает возникновения событий пользователького ввода " alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node6" href="$class_window.html" title="Абстракция графического окна ОС. " alt="" coords="134,95,202,121"/>
+<area shape="rect" id="node7" href="$class_level_display.html" title="визуальна¤ панель отображени¤ строки символов с названием выбранной карты отображает : a&#45;z..." alt="" coords="225,363,319,389"/>
+<area shape="rect" id="node8" href="$class_char_display.html" title="подобие символьного дисплея в окне " alt="" coords="229,273,321,300"/>
+<area shape="rect" id="node9" href="$class_sprite_table.html" title="элемент &quot;Leaf&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="231,184,318,211"/>
+<area shape="rect" id="node10" href="$class_visual_base.html" title="&quot;Component&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="231,95,319,121"/>
+</map>

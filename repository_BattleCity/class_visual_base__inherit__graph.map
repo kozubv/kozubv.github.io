@@ -1,0 +1,5 @@
+<map id="VisualBase" name="VisualBase">
+<area shape="rect" id="node2" href="$class_sprite_table.html" title="элемент &quot;Leaf&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="8,80,95,107"/>
+<area shape="rect" id="node4" href="$class_visual_panel.html" title="элемент &quot;Composite&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="119,80,210,107"/>
+<area shape="rect" id="node3" href="$class_char_display.html" title="подобие символьного дисплея в окне " alt="" coords="5,155,97,181"/>
+</map>

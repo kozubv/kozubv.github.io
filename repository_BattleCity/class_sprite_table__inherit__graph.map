@@ -1,0 +1,4 @@
+<map id="SpriteTable" name="SpriteTable">
+<area shape="rect" id="node3" href="$class_char_display.html" title="подобие символьного дисплея в окне " alt="" coords="5,155,97,181"/>
+<area shape="rect" id="node2" href="$class_visual_base.html" title="&quot;Component&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="7,5,95,32"/>
+</map>

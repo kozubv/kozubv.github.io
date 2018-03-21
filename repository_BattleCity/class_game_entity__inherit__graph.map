@@ -1,0 +1,6 @@
+<map id="GameEntity" name="GameEntity">
+<area shape="rect" id="node2" href="$class_barrier.html" title="Препятствия. " alt="" coords="5,80,65,107"/>
+<area shape="rect" id="node3" href="$class_bonus.html" title="Бонус " alt="" coords="90,80,149,107"/>
+<area shape="rect" id="node4" href="$class_bullet.html" title="Снаряд " alt="" coords="173,80,228,107"/>
+<area shape="rect" id="node5" href="$class_tank.html" title="Танк " alt="" coords="253,80,303,107"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ReportTable" name="ReportTable">
+<area shape="rect" id="node2" href="$class_char_display.html" title="подобие символьного дисплея в окне " alt="" coords="5,157,97,184"/>
+<area shape="rect" id="node3" href="$class_sprite_table.html" title="элемент &quot;Leaf&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="8,81,95,108"/>
+<area shape="rect" id="node4" href="$class_visual_base.html" title="&quot;Component&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="7,5,95,32"/>
+</map>

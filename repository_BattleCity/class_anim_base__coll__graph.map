@@ -1,0 +1,3 @@
+<map id="AnimBase" name="AnimBase">
+<area shape="rect" id="node2" href="$struct_sprite_sheet_info.html" title="содержит параметры описывающие правила воспроизведения анимации. " alt="" coords="5,5,116,32"/>
+</map>

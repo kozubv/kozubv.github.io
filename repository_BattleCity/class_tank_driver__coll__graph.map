@@ -1,0 +1,6 @@
+<map id="TankDriver" name="TankDriver">
+<area shape="rect" id="node2" href="$class_tank_driver_base.html" title="интерфейс стратегии автономного поведения танков " alt="" coords="48,184,160,211"/>
+<area shape="rect" id="node3" href="$class_tank.html" title="Танк " alt="" coords="79,95,129,121"/>
+<area shape="rect" id="node4" href="$class_game_entity.html" title="объекты, способные к взаимному механическому контакту " alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node5" href="$class_anim_list.html" title="Комбинированная анимация. " alt="" coords="121,5,194,32"/>
+</map>

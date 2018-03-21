@@ -1,0 +1,4 @@
+<map id="AnimSingle" name="AnimSingle">
+<area shape="rect" id="node2" href="$class_anim_base.html" title="базовый класс для Анимаций " alt="" coords="19,95,102,121"/>
+<area shape="rect" id="node3" href="$struct_sprite_sheet_info.html" title="содержит параметры описывающие правила воспроизведения анимации. " alt="" coords="5,5,116,32"/>
+</map>

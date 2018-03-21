@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_base_state.html" title="общий интерфейс режимов программы. компонент &quot;базовый интерфейс состояний&quot; паттерна &quot;Состояние&quot;..." alt="" coords="5,81,88,108"/>
+<area shape="rect" id="node2" href="$class_state___battle.html" title="Режим битвы. " alt="" coords="160,5,255,32"/>
+<area shape="rect" id="node3" href="$class_state___battle_report.html" title="отображает на экране статистику битвы " alt="" coords="141,56,273,83"/>
+<area shape="rect" id="node4" href="$class_state___level_selection.html" title="ѕозвол¤ет выбрать карту дл¤ битвы. " alt="" coords="136,107,279,133"/>
+<area shape="rect" id="node5" href="$class_state___tanks_menu.html" title="Режим главного меню. Выбор битвы или выход из программы. " alt="" coords="144,157,271,184"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="InfoPanel" name="InfoPanel">
+<area shape="rect" id="node2" href="$class_sprite_table.html" title="элемент &quot;Leaf&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="110,81,197,108"/>
+<area shape="rect" id="node4" href="$class_char_display.html" title="подобие символьного дисплея в окне " alt="" coords="107,191,199,218"/>
+<area shape="rect" id="node3" href="$class_visual_base.html" title="&quot;Component&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="164,5,252,32"/>
+<area shape="rect" id="node5" href="$class_visual_panel.html" title="элемент &quot;Composite&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="199,132,289,159"/>
+</map>

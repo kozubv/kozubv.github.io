@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_visual_base.html" title="&quot;Component&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="5,31,93,57"/>
+<area shape="rect" id="node2" href="$class_sprite_table.html" title="элемент &quot;Leaf&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="143,5,230,32"/>
+<area shape="rect" id="node4" href="$class_visual_panel.html" title="элемент &quot;Composite&quot; паттерна &quot;Компоновщик&quot; для визуальных элементов " alt="" coords="141,56,232,83"/>
+<area shape="rect" id="node3" href="$class_char_display.html" title="подобие символьного дисплея в окне " alt="" coords="280,5,372,32"/>
+</map>

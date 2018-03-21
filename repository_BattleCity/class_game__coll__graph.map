@@ -1,0 +1,6 @@
+<map id="Game" name="Game">
+<area shape="rect" id="node2" href="$class_shared_context.html" title="доступ к общим данным режимов программы " alt="" coords="47,184,155,211"/>
+<area shape="rect" id="node5" href="$class_state_manager.html" title="Предоставляем методы контроля, регистрации и смены режимов программы " alt="" coords="88,273,191,300"/>
+<area shape="rect" id="node3" href="$class_event_manager.html" title="отслеживает возникновения событий пользователького ввода " alt="" coords="82,5,186,32"/>
+<area shape="rect" id="node4" href="$class_window.html" title="Абстракция графического окна ОС. " alt="" coords="211,95,279,121"/>
+</map>

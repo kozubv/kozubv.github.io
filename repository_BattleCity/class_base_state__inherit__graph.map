@@ -1,0 +1,6 @@
+<map id="BaseState" name="BaseState">
+<area shape="rect" id="node2" href="$class_state___battle.html" title="Режим битвы. " alt="" coords="5,80,100,107"/>
+<area shape="rect" id="node3" href="$class_state___battle_report.html" title="отображает на экране статистику битвы " alt="" coords="124,80,256,107"/>
+<area shape="rect" id="node4" href="$class_state___level_selection.html" title="ѕозвол¤ет выбрать карту дл¤ битвы. " alt="" coords="280,80,423,107"/>
+<area shape="rect" id="node5" href="$class_state___tanks_menu.html" title="Режим главного меню. Выбор битвы или выход из программы. " alt="" coords="447,80,573,107"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Tank" name="Tank">
+<area shape="rect" id="node2" href="$class_game_entity.html" title="объекты, способные к взаимному механическому контакту " alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node3" href="$class_anim_list.html" title="Комбинированная анимация. " alt="" coords="121,5,194,32"/>
+</map>

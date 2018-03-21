@@ -1,0 +1,5 @@
+<map id="StateManager" name="StateManager">
+<area shape="rect" id="node2" href="$class_shared_context.html" title="доступ к общим данным режимов программы " alt="" coords="5,184,113,211"/>
+<area shape="rect" id="node3" href="$class_event_manager.html" title="отслеживает возникновения событий пользователького ввода " alt="" coords="37,5,141,32"/>
+<area shape="rect" id="node4" href="$class_window.html" title="Абстракция графического окна ОС. " alt="" coords="165,95,233,121"/>
+</map>

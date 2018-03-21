@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_anim_base.html" title="базовый класс для Анимаций " alt="" coords="5,31,88,57"/>
+<area shape="rect" id="node2" href="$class_anim_loop.html" title="Циклически проигрывающаяся анимация. " alt="" coords="140,5,220,32"/>
+<area shape="rect" id="node3" href="$class_anim_single.html" title="Однократно проигравающаяся анимация. " alt="" coords="136,56,224,83"/>
+</map>

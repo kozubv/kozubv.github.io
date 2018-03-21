@@ -1,0 +1,269 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML  4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- This is a comment
+google drive storage : https://drive.google.com/uc?id={}
+ -->
+ <html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Проекты</title>
+  <style>
+   table.projects {
+    width: 900px;
+    .border: 1px solid green;        /* Рамка вокруг таблицы */
+    margin: auto;                   /* Выравниваем таблицу по центру окна  */
+    vertical-align: top;
+    padding: 1px;                   /* отступ от внешней границы*/
+    border-spacing: 25px;            /* отступ между ячейками*/
+	.background  : #EDEEF0;
+   }
+    table.galery {
+    border: 1px solid none;        /* Рамка вокруг таблицы */
+    margin: auto;                   /* Выравниваем таблицу по центру окна  */
+    vertical-align: top;
+    padding: 10px;                   /* отступ от внешней границы*/
+    border-spacing: 50px;            /* отступ между ячейками*/
+	.background  : #EDEEF0;
+   }
+   
+   td.projects {
+    width: 300px;
+    border: 1px solid none;        /* Рамка вокруг таблицы */
+    text-align  : left;             /* Выравниваем текст по центру ячейки */
+    .background  : #EDEEF0;
+    padding     : 10px;                   /* отступ от внешней границы*/
+    vertical-align: top;
+    .border-radius: 1px 1px 1px 1px;
+   }
+   td.galery {
+    width: 900px;
+    border: 1px solid none;        /* Рамка вокруг таблицы */
+    text-align  : left;             /* Выравниваем текст по центру ячейки */
+    background  : #EDEEF0;
+    padding     : 10px;                   /* отступ от внешней границы*/
+    vertical-align: top;
+    .border-radius: 1px 1px 1px 1px;
+   }
+   br {
+    text-align: left;                   /* Выравниваем таблицу по центру окна  */
+   }
+   h1 {
+       font-family  : sans-serif;      /* Гарнитура текста */ 
+       font-size    : 20px;                                         /* Размер шрифта в процентах */ 
+       color        : #404040;
+	   font-weight	: 990;
+	   line-height: 16px;
+   }
+   h2 {
+       font-family  : Arial, sans-serif;      /* Гарнитура текста */ 
+       font-size    : 15px;                                         /* Размер шрифта в процентах */ 
+       color        : #404040;
+	   .font-weight	: 100;
+	   .line-height: 35px;
+   }
+    p {
+       font-family  : sans-serif;      /* Гарнитура текста */ 
+       font-size    : 13px;                                         /* Размер шрифта в процентах */ 
+	   font-weight	: 200
+   }
+    a.rollover {
+        background: url(gif/tanks.png);                             /* Путь к файлу с исходным рисунком  */
+        display: block;                                             /*  Рисунок как блочный элемент */
+        width: 125px;                                               /* Ширина рисунка */
+        height: 125px;                                              /*  Высота рисунка */
+   }
+    a.rollover:hover {
+		.border: 5px solid #4040b0;
+		.width: 90%;                                               /* Ширина рисунка */
+        .height: 90%;                                              /*  Высота рисунка */
+        .background: url(gif/matlab.png);                            /* Путь к файлу с заменяемым рисунком
+				*/
+   }
+   a{
+       font-family  : sans-serif, Arial;      /* Гарнитура текста */ 
+       font-size    : 20px;                                         /* Размер шрифта в процентах */ 
+       color        : #404040;
+	   font-weight	: 1000;
+	   text-decoration: none;
+   }
+   a.inline{
+	   .font-family  : sans-serif, Arial;                           /* Гарнитура текста */ 
+       font-size    : 14px;                                         /* Размер шрифта в процентах */ 
+       color        : #4040b0;
+	   font-weight	: 500;
+	   text-decoration: none;
+   }
+   a:hover{
+	   text-decoration:underline
+   }
+   * { 
+		margin: 0px; 
+		padding: 0px;
+	 }
+	#topNavLine {
+		width: 100%;
+		height: 40px;
+		background: rgb(50,200,100);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 9999; 
+	}
+	
+	#banner-container {
+    width: 100%;
+    margin-top: 25px;
+    .border-top: 2px solid #999;
+    .border-bottom: 2px solid #999;
+    background-color: #2F7EB2;
+	}
+
+	#banner {
+    height: 60px;
+    line-height: 54px;
+    margin: 0 auto;
+    .text-align: center;
+	}
+
+	#banner #sfml {
+	font-family  : sans-serif;
+    display: inline;
+    vertical-align: top;
+    margin-left: 15px;
+    color: #000;
+    font-size: 20pt;
+    .text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 5px;
+	}
+   </style>
+ </head>
+ <body>
+  <div id="banner-container">
+            <div id="banner">
+                <span id="sfml"> </span>
+            </div>
+  </div>
+  <table class="projects">
+   <tr>
+    <td class="projects"><p align="center"><img src="resources/tanks.png"></a></p>
+        <!--p align="center"><a href="https://kozubv.github.io/index.html" class="rollover"> </a></p-->
+        <a href="repository_BattleCity/index.html">Проект на С++ </a>
+        <p>Пример простой игры на С++11 с использованием библиотеки SFML.<br>
+		Сама игра является приближенной реконструкцией классической BattleCity (или Tank 1990).</p>
+		<p>Ссылка на <a href="https://github.com/kozubv/BattleCity" class="inline">репозиторий GitHub.</a><br>
+		Ссылка на подробное описание проекта и <a href="repository_BattleCity/index.html" class="inline">документацию Doxygen</a>.
+        </p>
+    </td>
+    <td class="projects"><p align="center"><img src="resources\dsp.png"> </a></p>
+        <a href="https://github.com/kozubv/doppler_radar">Проект в Matlab </a>
+        <p>Модель допплеровской модуляции радиосигнала при отражении от подвижной цели с множеством "блестящих точек".<br>
+	<p>Ссылка на <a href="https://github.com/kozubv/doppler_radar" class="inline">репозиторий GitHub.</a><br>
+        Ссылка на видео с демонстрацией <a href="https://www.youtube.com/watch?v=PaHIgSvZP4I&t=5s" class="inline">результатов для нескольких типов целей.</a><br>
+        </p>
+    </td>
+   </tr>
+ </table>
+
+ <h1 align="center">Примеры обработки сигналов и изображений</h1>
+ <table class="galery">
+    <tr><td class="galery">
+        <h2>Распределение мощности сигнала от направленной антенны, установленной на воздушном носителе, по поверхности трехмерного ландшафта</h2><br>
+        <p>Модель была написана для оценки качества радиолокационного изображения при картографировании(SAR), 
+		на характеристики которого оказывает влияние текущие условия сканирования.
+		Проверено совокупное влияние следующих характеристик:<br>
+		- погрешность определения угла азимута цели, при наличии возвышенностей в зоне обзора.<br>
+		- уровень шумов, приникающих через боковые лепестки АФАР в зависимости от типа подстилающей поверхности.<br>
+		- дальность действия и допустимый период когерентного накопления РЛС.<br>
+		- динамический диапазон цифрового приемника. 
+		</p>
+        <p align="center"><img src="https://drive.google.com/uc?id=1w9xQGgKlEVNLM-J3KybdFLDr-z3ahPiM" alt="resources/alt_img.png" height="100%" width="100%"></p>
+    </tr></td>
+    <tr><td class="galery">
+        <h2>Диаграммообразование фазированной антенной решетки</h2><br>
+        <p>Модель использовалась для оптимизации соотношений: ширины главного лепестка АФАР, его усиления и уровня боковых лепестков<br>
+		Значения этих параметров управлялись функцией амплитудного распределения в каналах АФАР.
+		Небольшая сложность алгоритма рассчета позволила использовать его в комплексной модели РЛС с перестроением луча антенны по направлению. 
+		Модель вычислений основана на простом аддитивном представлении о взаимодействии излучающих элементов, без учета их электродинамической развязки.
+		(сравнивалось с FEM моделью, различия 1-5%)<br>
+		На верхнем графике приведена ДНА в режиме передачи. <br>
+		На нижнем, приведено совокупное усиление ДНА на передачу и на прием. При передаче работала центральная подрешетка построенная на приемо-передающих модулях.
+		Прием проводился всем полотном решетки, включающим в себя еще и подрешетку на приемных модулях. Как следствие ДНА на прием и передачу различаются,
+		что должно быть учтено в основоном уравнении радиолокации. 
+        <p align="center"><img src="https://drive.google.com/uc?id=1R12Psli5WnogpDE_ZZc6oLs0TvIihRdf" height="100%" width="100%"></p>
+        </p>
+    </tr></td>
+    <tr><td class="galery">
+        <h2>Формирование радиолокационного изображения методом синтезирования апертуры</h2><br>
+        <p>Использавалась при анализе требований к режиму картографирования РЛС воздушного базирования.<br>
+		Предусмотрены возможности изменения условий кортографирования:<br>
+			- использование заданной топологии АФАР и ее амплитудного распределения. В том числе, случаи многолучевого.<br>
+			обзора и случай защиты от помех, путем формирования нуля ДНА по заданному направлению.<br>
+			- проверка работы в заданной фоно-целевой обстановке. Добавление подвижных и неподвижных распределенных целей.<br>
+			- внесение искажений в сигнал от траекторных искажений фазового центра АФАР.<br>
+		Анализировались: азимутальное разрешение точечных целей, влияние когерентного накопления при 
+		компесанции траекторных искажений на соотношение сигнал шум.<br>
+		Отдельные блоки алгоритма служили исходными данными для разработчиков ЦОС на ПЛИС. Исходный код и файлы входных, выходных
+		данных, адаптированные под целочисленные вычисления точности целевой ПЛИС. 		
+		<br>
+        <h2>Секторный обзор</h2>
+        <p align="center"><img src="https://drive.google.com/uc?id=1nnWWGb99vmeCMSDMNzPG4pLQeSzBUwUp" height="100%" width="100%"></p>
+        <h2>Совмещение полос сканирония :</h2>
+		<p>Совмещение кадров изображения при повторном сканировании участков местности.</p>
+        <p align="center"><img src="https://drive.google.com/uc?id=10E-0sRqAN3De6D9ad4R5W_GVG4_ACg03" height="45%" width="45%">
+                          <img src="https://drive.google.com/uc?id=1PJuKAPWMtFU-PJBOPLPsetIF3nxnR2Hz" height="45%" width="45%" align="top"></p>
+        </p>
+    </tr></td>  
+    <tr><td class="galery">
+        <h2>Блоки алгоритма цифровой обработки сигнала РЛС в режиме синтезирования апертуры</h2><br>
+        <p>Графики ниже представляют собой сигнал радара 
+		   по ходу движения через блоки алгоритма цифровой обработки. Выходные данные каждого из блоков
+		   являются входными для последующего.<br>
+		Вычисления проводились в целых числах, в том числе коэффициенты фурье преобразования варьровались по
+		ширине целочисленного представления.
+        <p align="center"><img src="https://drive.google.com/uc?id=1T8omIX2nCpqFIdS9Jv2pVyfY4YcD01Zq" height="100%" width="100%"></p>
+        </p>
+    </tr></td>
+    <tr><td class="galery">
+        <h2>Микродопплеровская модуляция (micro-doppler radar signatures)</h2><br>
+        <p><a name="doppler"></a>Модель допплеровской модуляции радиосигнала при отражении от подвижной цели с множеством "блестящих точек".</h2><br>
+         Ссылка на видео с демонстрацией <a href="https://www.youtube.com/watch?v=PaHIgSvZP4I&t=5s" class="inline">результатов для нескольких типов целей.</a><br>
+		 Для создания представленных анимаций пришлось пожертвовать целостностью спектрограмм. Т.к. для их отображения по ходу симуляции
+		 они рассчитываются частям и на границах появляются разрывы фаз. Компенсировать этот эфект я здесь не стал.
+		 А вобщем спектрограмма получается стандартным оконным преобразованием Фурье. Также тестировались вейвлет-преобразования. 
+		<h2>Простая одиночная цель и лопасти дрона:</h2><br>
+        <p align="center"><img src="https://drive.google.com/uc?id=1DvRAYcYSxQYbRRGopnhlHY35D_qey8uZ" height="48%" width="48%">
+                          <img src="https://drive.google.com/uc?id=1SD8eUYcWTH5P8Xtbqd5cokmgjFIXW3gz" height="48%" width="48%"></p>
+        <h2>Комплексная одиночная цель (человек) :</h2><br>
+        <p align="center"><img src="https://drive.google.com/uc?id=18JEHO0X1mIont-T-y5cmUrPBiVnVvsuG" height="65%" width="65%"></p>
+        <p> </p>
+
+	</tr></td> 
+    <tr><td class="galery">
+        <h2>Локальная радионавигационная система</h2>
+        <p>Результаты обработки данных системы локальной навигации. На схеме обозначены:<br>
+		*         - позиции базовых станций<br>
+		оружности - дальность от мобильной радиометки до соответствующей базовой станции.<br>
+		.         - вычисленные координаты радиометки в дискретные моменты времени.<br>
+		В качестве датчиков использовались UWB дальномеры, расположенные в базовых станциях и датчик давления на радиометке.
+		В результате была реализована программа определения координат и фильтрации траектории на основе расширенного фильтра Каллмана.
+        <p align="center"><img src="https://drive.google.com/uc?id=1rSUHDfRUkvG35ZWV8Hhed5OGu56jyhM_" height="60%" width="60%"></p>
+        <p> </p></p>
+    </tr></td>    
+    <tr><td class="galery">
+        <h2>Перехват воздушных целей</h2><br>
+        <p>Программа моделирования поведения системы перехвата воздушных целей.<br>
+		Варьируемые параметры: конфигурирование группы нападения по численности, построению, параметрам снарядов,
+		количество одновременно отсеживаемых целей, продолжительность слежения. 
+		Реализован алгоритм планирования системы перехвата, с ограниченным количеством сопровождаемых в воздухе снарядов.
+        Также в этой программе реализован метод перехвата баллистической цели движущейся сучетом силы трения воздуха.
+		<p align="center"><img src="https://drive.google.com/uc?id=1fi67Wy-Gj7Gu2oxdsEuiQ6rV-TqqKNwJ" height="48%" width="48%"></p>
+        <p align="center"><img src="https://drive.google.com/uc?id=1sUzC47HmusK8vVujBtqvcxRSELWpUcB1" height="48%" width="48%"></p>
+        <p> </p>
+    </tr></td>
+    <tr><td class="galery">
+        <h2>Простая компьютерная игра BattleCity (или Tanks 1990)</h2>
+        <p><p>Пример простой игры на С++11 с использованием библиотеки SFML.<br>
+        <p align="center"><img src="https://drive.google.com/uc?id=1hORyPdusMSDq3wlQdUWQn8jgXgJgID_K" height="60%" width="60%"></p>
+        <p> </p>
+    </tr></td>     
+ </table>
+ </body>
+</html>

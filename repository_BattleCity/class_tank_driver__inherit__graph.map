@@ -1,0 +1,3 @@
+<map id="TankDriver" name="TankDriver">
+<area shape="rect" id="node2" href="$class_tank_driver_base.html" title="интерфейс стратегии автономного поведения танков " alt="" coords="5,5,117,32"/>
+</map>
